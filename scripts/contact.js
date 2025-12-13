@@ -12,7 +12,7 @@ submitButton.onclick = function() {
     contactPage.innerHTML = "<p id='thanks'>Thank you for your message!</p>";
 
     //change style (font size) of thanks_message
-    const thanks_message = document.getElementById("thanks")
+    const thanks_message = document.getElementById("thanks");
     thanks_message.style.fontSize = "24px";
 
 };
